@@ -17,7 +17,9 @@ import {
     sass,
     champ,
     tailwindcss,
-    portfolio
+    portfolio,
+    php,
+    mysql
 } from "../assets/icons";
 
 export const skills = [
