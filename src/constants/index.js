@@ -76,6 +76,16 @@ export const skills = [
         name: "Tailwind CSS",
         type: "Frontend",
     },
+    {
+        imageUrl: php,
+        name: "PHP",
+        type: "Backend",
+    },
+    {
+        imageUrl: mysql,
+        name: "MySQL",
+        type: "Database",
+    },
 ];
 
 export const experiences = [
