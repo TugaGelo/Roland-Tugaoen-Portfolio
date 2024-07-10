@@ -10,7 +10,6 @@ Welcome to my portfolio project built with Three.js! This project showcases my s
 - [Installation](#installation)
 - [Usage](#usage)
 - [Screenshots](#screenshots)
-- [License](#license)
 - [Contact](#contact)
 
 ## Introduction
@@ -35,4 +34,46 @@ This portfolio project demonstrates my proficiency in creating interactive and v
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/YourUsername/your-portfolio.git
+   https://github.com/TugaGelo/Roland-Tugaoen-Portfolio.git
+
+2. Navigate to the project directory:
+   ```bash
+   cd Roland-Tugaoen-Portfolio
+   
+3. Install the dependencies:
+   ```bash
+   npm install
+
+## Usage
+
+1. Explore the interactive 3D scenes and animations.
+
+2. Navigate through different sections to view projects and details.
+
+## Screenshots
+
+![Screenshot 1](next-article/screenshots/1.png)
+
+![Screenshot 1](next-article/screenshots/2.png)
+
+![Screenshot 1](next-article/screenshots/3.png)
+
+![Screenshot 1](next-article/screenshots/5.png)
+
+![Screenshot 1](next-article/screenshots/6.png)
+
+![Screenshot 1](next-article/screenshots/7.png)
+
+![Screenshot 1](next-article/screenshots/8.png)
+
+## Contact
+
+Email: rolandtugaoen@gmail.com
+
+LinkedIn: [LinkedIn](https://www.linkedin.com/in/rabtugaoen/)
+
+GitHub: [GitHub](https://github.com/TugaGelo)
+
+Portfolio: [My Website](https://roland-tugaoen-portfolio.vercel.app)
+
+Feel free to reach out if you have any questions or suggestions!
