@@ -52,19 +52,19 @@ This portfolio project demonstrates my proficiency in creating interactive and v
 
 ## Screenshots
 
-![Screenshot 1](src/screenshots/1.png)
+![Screenshot 1](src/assets/screenshots/1.png)
 
-![Screenshot 1](src/screenshots/2.png)
+![Screenshot 1](src/assets/screenshots/2.png)
 
-![Screenshot 1](src/screenshots/3.png)
+![Screenshot 1](src/assets/screenshots/3.png)
 
-![Screenshot 1](src/screenshots/5.png)
+![Screenshot 1](src/assets/screenshots/5.png)
 
-![Screenshot 1](src/screenshots/6.png)
+![Screenshot 1](src/assets/screenshots/6.png)
 
-![Screenshot 1](src/screenshots/7.png)
+![Screenshot 1](src/assets/screenshots/7.png)
 
-![Screenshot 1](src/screenshots/8.png)
+![Screenshot 1](src/assets/screenshots/8.png)
 
 ## Contact
 
