@@ -140,18 +140,25 @@ export const socialLinks = [
 
 export const projects = [
     {
+        iconUrl: note,
+        theme: 'btn-back-yellow',
+        name: 'Full Stack Notes App',
+        description: 'Developed a full stack notes application using the MERN stack (MongoDB, Express, React, Node.js). This app allows users to create, edit, delete, and organize notes in real-time with a user-friendly interface.',
+        link: 'https://github.com/TugaGelo/Full-Stack-Notes-App',
+    },
+    {
+        iconUrl: chat,
+        theme: 'btn-back-black',
+        name: 'Real-Time Chat App',
+        description: 'Developed a real-time chat application using Node.js, React, and NPM. This app allows users to communicate instantly, supporting both one-on-one and group conversations.',
+        link: 'https://github.com/TugaGelo/Real-Time-Chat-App',
+    },
+    {
         iconUrl: CMS,
         theme: 'btn-back-red',
         name: 'Concessionaire Monitoring ',
         description: 'Developed a web application primarily using PHP to monitor and manage concessionaire operations efficiently, including tracking sales, inventory, and performance metrics.',
         link: 'https://github.com//TugaGelo/CMS-Solutions',
-    },
-    {
-        iconUrl: portfolio,
-        theme: 'btn-back-green',
-        name: 'Next.js Portfolio',
-        description: 'Developed a personal portfolio website using Next.js, React, Semantic UI, and Sass to showcase projects and skills, featuring a modern design and smooth user experience.',
-        link: 'https://github.com/TugaGelo/Next-Portfolio',
     },
     {
         iconUrl: article,
@@ -168,18 +175,11 @@ export const projects = [
         link: 'https://github.com/TugaGelo/Random-Champion-Generator',
     },
     {
-        iconUrl: chat,
-        theme: 'btn-back-black',
-        name: 'Real-Time Chat App',
-        description: 'Developed a real-time chat application using Node.js, React, and NPM. This app allows users to communicate instantly, supporting both one-on-one and group conversations.',
-        link: 'https://github.com/TugaGelo/Real-Time-Chat-App',
-    },
-    {
-        iconUrl: note,
-        theme: 'btn-back-yellow',
-        name: 'Full Stack Notes App',
-        description: 'Developed a full stack notes application using the MERN stack (MongoDB, Express, React, Node.js). This app allows users to create, edit, delete, and organize notes in real-time with a user-friendly interface.',
-        link: 'https://github.com/TugaGelo/Full-Stack-Notes-App',
+        iconUrl: portfolio,
+        theme: 'btn-back-green',
+        name: 'Next.js Portfolio',
+        description: 'Developed a personal portfolio website using Next.js, React, Semantic UI, and Sass to showcase projects and skills, featuring a modern design and smooth user experience.',
+        link: 'https://github.com/TugaGelo/Next-Portfolio',
     },
 ];
 
