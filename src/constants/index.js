@@ -19,7 +19,8 @@ import {
     tailwindcss,
     portfolio,
     php,
-    mysql
+    mysql,
+    note
 } from "../assets/icons";
 
 export const skills = [
@@ -172,6 +173,13 @@ export const projects = [
         name: 'Real-Time Chat App',
         description: 'Developed a real-time chat application using Node.js, React, and NPM. This app allows users to communicate instantly, supporting both one-on-one and group conversations.',
         link: 'https://github.com/TugaGelo/Real-Time-Chat-App',
+    },
+    {
+        iconUrl: note,
+        theme: 'btn-back-yellow',
+        name: 'Full Stack Notes App',
+        description: 'Developed a full stack notes application using the MERN stack (MongoDB, Express, React, Node.js). This app allows users to create, edit, delete, and organize notes in real-time with a user-friendly interface.',
+        link: 'https://github.com/TugaGelo/Full-Stack-Notes-App',
     },
 ];
 

@@ -20,7 +20,7 @@ import article from './article.svg'
 import chat from './chat.svg'
 import CMS from './CMS.svg'
 import champ from './champ.svg'
-import summiz from './summiz.svg'
+import note from './note.svg'
 import portfolio from './portfolio.svg'
 import arrow from './arrow.svg'
 import contact from './contact.svg'
@@ -52,7 +52,7 @@ export {
     chat,
     CMS,
     champ,
-    summiz,
+    note,
     portfolio,
     arrow,
     contact,
