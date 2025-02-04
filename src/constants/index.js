@@ -1,4 +1,4 @@
-import { PUP, Zynappse, Amazon, McDonald } from "../assets/images";
+import { Amazon, PUP, Zynappse, McDonald } from "../assets/images";
 import {
     article,
     contact,
@@ -96,7 +96,7 @@ export const experiences = [
         title: "Technical Support Specialist",
         company_name: "Amazon",
         icon: Amazon, 
-        iconBg: "#FF9900", 
+        iconBg: "#05A0D1",
         date: "Aug 2024 - Feb 2025",
         points: [
             "Provided technical support to customers, troubleshooting and resolving issues related to Amazon's products and services.",
@@ -109,7 +109,7 @@ export const experiences = [
         title: "Student Assistant",
         company_name: "Polytechnic University of the Philippines",
         icon: PUP,
-        iconBg: "#d7818c",
+        iconBg: "#FFDF00",
         date: "Aug 2022 - Feb 2024",
         points: [
             "Assisting in the preparation and delivery of technical workshops and training sessions for students.",
@@ -134,8 +134,8 @@ export const experiences = [
     {
         title: "Service Crew",
         company_name: "McDonald's",
-        icon: McDonald,
-        iconBg: "#FFC72C", 
+        icon: McDonald, 
+        iconBg: "#DA291C", 
         date: "Jan 2020 - Feb 2022",
         points: [
             "Provided excellent customer service by taking orders, preparing food, and ensuring a clean dining environment.",
