@@ -1,4 +1,4 @@
-import { PUP, Zynappse } from "../assets/images";
+import { PUP, Zynappse, Amazon, McDonald } from "../assets/images";
 import {
     article,
     contact,
@@ -92,7 +92,20 @@ export const skills = [
 ];
 
 export const experiences = [
-     {
+    {
+        title: "Technical Support Specialist",
+        company_name: "Amazon",
+        icon: Amazon, 
+        iconBg: "#FF9900", 
+        date: "Aug 2024 - Feb 2025",
+        points: [
+            "Provided technical support to customers, troubleshooting and resolving issues related to Amazon's products and services.",
+            "Assisted customers with account management, device setup, and software configuration.",
+            "Documented and tracked customer issues using CRM tools, ensuring timely and accurate resolution.",
+            "Collaborated with other technical support teams to escalate and resolve complex technical issues.",
+        ],
+    },
+    {
         title: "Student Assistant",
         company_name: "Polytechnic University of the Philippines",
         icon: PUP,
@@ -116,6 +129,19 @@ export const experiences = [
             "Collaborated with cross-functional teams including designers, product managers, and other developers to create high-quality web products.",
             "Contributed significantly to the development and enhancement of the company's main website.",
             "Participated in code reviews and provided constructive feedback to other developers.",
+        ],
+    },
+    {
+        title: "Service Crew",
+        company_name: "McDonald's",
+        icon: McDonald,
+        iconBg: "#FFC72C", 
+        date: "Jan 2020 - Feb 2022",
+        points: [
+            "Provided excellent customer service by taking orders, preparing food, and ensuring a clean dining environment.",
+            "Worked efficiently in a fast-paced environment, handling multiple tasks simultaneously.",
+            "Collaborated with team members to meet daily operational goals and maintain high standards of service.",
+            "Trained new employees on company policies, procedures, and customer service best practices.",
         ],
     },
 ];
