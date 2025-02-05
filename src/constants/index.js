@@ -184,7 +184,7 @@ export const projects = [
         theme: 'btn-back-red',
         name: 'Concessionaire Monitoring ',
         description: 'Developed a web application primarily using PHP to monitor and manage concessionaire operations efficiently, including tracking sales, inventory, and performance metrics.',
-        link: 'https://github.com//TugaGelo/CMS-Solutions',
+        link: 'https://github.com/TugaGelo/COMS',
     },
     {
         iconUrl: article,
