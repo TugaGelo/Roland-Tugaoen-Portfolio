@@ -20,7 +20,8 @@ import {
     portfolio,
     php,
     mysql,
-    note
+    note,
+    synapse
 } from "../assets/icons";
 
 export const skills = [
@@ -166,6 +167,20 @@ export const socialLinks = [
 
 export const projects = [
     {
+        iconUrl: synapse,
+        theme: 'btn-back-red',
+        name: 'Company Website',
+        description: 'Collaborated on the development of a corporate website for Zynappse Corporation, utilizing React and Next.js to create a responsive and modern user experience.',
+        link: 'https://www.zynappse.com',
+    },
+    {
+        iconUrl: CMS,
+        theme: 'btn-back-pink',
+        name: 'Concessionaire Monitoring ',
+        description: 'Developed a web application primarily using PHP to monitor and manage concessionaire operations efficiently, including tracking sales, inventory, and performance metrics.',
+        link: 'https://github.com/TugaGelo/COMS',
+    },
+    {
         iconUrl: note,
         theme: 'btn-back-yellow',
         name: 'Full Stack Notes App',
@@ -178,13 +193,6 @@ export const projects = [
         name: 'Real-Time Chat App',
         description: 'Developed a real-time chat application using Node.js, React, and NPM. This app allows users to communicate instantly, supporting both one-on-one and group conversations.',
         link: 'https://github.com/TugaGelo/Real-Time-Chat-App',
-    },
-    {
-        iconUrl: CMS,
-        theme: 'btn-back-red',
-        name: 'Concessionaire Monitoring ',
-        description: 'Developed a web application primarily using PHP to monitor and manage concessionaire operations efficiently, including tracking sales, inventory, and performance metrics.',
-        link: 'https://github.com/TugaGelo/COMS',
     },
     {
         iconUrl: article,
@@ -206,7 +214,7 @@ export const projects = [
         name: 'Next.js Portfolio',
         description: 'Developed a personal portfolio website using Next.js, React, Semantic UI, and Sass to showcase projects and skills, featuring a modern design and smooth user experience.',
         link: 'https://github.com/TugaGelo/Next-Portfolio',
-    },
+    }
 ];
 
 export default skills;

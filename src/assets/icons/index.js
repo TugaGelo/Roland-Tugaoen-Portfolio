@@ -28,6 +28,7 @@ import soundon from './soundon.png'
 import soundoff from './soundoff.png'
 import php from './php.svg'
 import mysql from './mysql.svg'
+import synapse from './synapse.svg'
 
 export {
     css,
@@ -59,5 +60,6 @@ export {
     soundon,
     soundoff,
     php,
-    mysql
+    mysql,
+    synapse
 }
