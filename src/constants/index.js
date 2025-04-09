@@ -21,33 +21,20 @@ import {
     php,
     mysql,
     note,
-    synapse
+    synapse,
+    blog,
+    ejs
 } from "../assets/icons";
 
 export const skills = [
     {
-        imageUrl: css,
-        name: "CSS",
+        imageUrl: html,
+        name: "HTML",
         type: "Frontend",
     },
     {
-        imageUrl: express,
-        name: "Express",
-        type: "Backend",
-    },
-    {
-        imageUrl: git,
-        name: "Git",
-        type: "Version Control",
-    },
-    {
-        imageUrl: github,
-        name: "GitHub",
-        type: "Version Control",
-    },
-    {
-        imageUrl: html,
-        name: "HTML",
+        imageUrl: css,
+        name: "CSS",
         type: "Frontend",
     },
     {
@@ -56,9 +43,9 @@ export const skills = [
         type: "Frontend",
     },
     {
-        imageUrl: mongodb,
-        name: "MongoDB",
-        type: "Database",
+        imageUrl: react,
+        name: "React",
+        type: "Frontend",
     },
     {
         imageUrl: nodejs,
@@ -66,9 +53,29 @@ export const skills = [
         type: "Backend",
     },
     {
-        imageUrl: react,
-        name: "React",
-        type: "Frontend",
+        imageUrl: express,
+        name: "Express",
+        type: "Backend",
+    },
+    {
+        imageUrl: php,
+        name: "PHP",
+        type: "Backend",
+    },
+    {
+        imageUrl: git,
+        name: "Git",
+        type: "Version Control",
+    },
+    {
+        imageUrl: mysql,
+        name: "MySQL",
+        type: "Database",
+    },
+    {
+        imageUrl: mongodb,
+        name: "MongoDB",
+        type: "Database",
     },
     {
         imageUrl: sass,
@@ -81,14 +88,9 @@ export const skills = [
         type: "Frontend",
     },
     {
-        imageUrl: php,
-        name: "PHP",
-        type: "Backend",
-    },
-    {
-        imageUrl: mysql,
-        name: "MySQL",
-        type: "Database",
+        imageUrl: ejs,
+        name: "EJS",
+        type: "Frontend",
     },
 ];
 
@@ -98,7 +100,7 @@ export const experiences = [
         company_name: "Amazon",
         icon: Amazon, 
         iconBg: "#05A0D1",
-        date: "Aug 2024 - Feb 2025",
+        date: "Aug 2024 - March 2025",
         points: [
             "Provided technical support to customers, troubleshooting and resolving issues related to Amazon's products and services.",
             "Assisted customers with account management, device setup, and software configuration.",
@@ -214,7 +216,22 @@ export const projects = [
         name: 'Next.js Portfolio',
         description: 'Developed a personal portfolio website using Next.js, React, Semantic UI, and Sass to showcase projects and skills, featuring a modern design and smooth user experience.',
         link: 'https://github.com/TugaGelo/Next-Portfolio',
-    }
+    },
+    {
+        iconUrl: blog,
+        theme: 'btn-back-orange',
+        name: 'Node.js Blog Website',
+        description: 'Built a dynamic blog platform using Node.js, Express, and MongoDB. Utilized the MVC architecture with EJS templating to create RESTful routes and enable full CRUD operations.',
+        link: 'https://github.com/TugaGelo/learn-node',
+    },
+    {
+        iconUrl: blog,
+        theme: 'btn-back-black',
+        name: 'React Blog App',
+        description: 'Developed a single-page blog application using React, React Router, and JSON Server. Implemented full CRUD functionality, client-side routing, and custom hooks to manage data fetching and user interactions.',
+        link: 'https://github.com/TugaGelo/react-blog',
+    },
+
 ];
 
 export default skills;
