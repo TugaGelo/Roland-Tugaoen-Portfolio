@@ -1,4 +1,11 @@
-import { Amazon, PUP, Zynappse, McDonald } from "../assets/images";
+import { 
+    Amazon, 
+    PUP, 
+    Zynappse, 
+    McDonald,
+    Hipe
+} from "../assets/images";
+
 import {
     article,
     contact,
@@ -23,7 +30,11 @@ import {
     note,
     synapse,
     blog,
-    ejs
+    ejs,
+    typescript,
+    inertia,
+    laravel,
+    nextjs,
 } from "../assets/icons";
 
 export const skills = [
@@ -43,19 +54,14 @@ export const skills = [
         type: "Frontend",
     },
     {
-        imageUrl: react,
-        name: "React",
+        imageUrl: typescript,
+        name: "typescript",
         type: "Frontend",
     },
     {
-        imageUrl: nodejs,
-        name: "Node.js",
-        type: "Backend",
-    },
-    {
-        imageUrl: express,
-        name: "Express",
-        type: "Backend",
+        imageUrl: sass,
+        name: "Sass",
+        type: "Frontend",
     },
     {
         imageUrl: php,
@@ -68,19 +74,19 @@ export const skills = [
         type: "Version Control",
     },
     {
+        imageUrl: laravel,
+        name: "laravel",
+        type: "Frontend",
+    },
+    {
+        imageUrl: react,
+        name: "React",
+        type: "Frontend",
+    },
+    {
         imageUrl: mysql,
         name: "MySQL",
         type: "Database",
-    },
-    {
-        imageUrl: mongodb,
-        name: "MongoDB",
-        type: "Database",
-    },
-    {
-        imageUrl: sass,
-        name: "Sass",
-        type: "Frontend",
     },
     {
         imageUrl: tailwindcss,
@@ -88,13 +94,51 @@ export const skills = [
         type: "Frontend",
     },
     {
+        imageUrl: express,
+        name: "Express",
+        type: "Backend",
+    },
+    {
+        imageUrl: nodejs,
+        name: "Node.js",
+        type: "Backend",
+    },
+    {
         imageUrl: ejs,
         name: "EJS",
+        type: "Frontend",
+    },
+    {
+        imageUrl: mongodb,
+        name: "MongoDB",
+        type: "Database",
+    },
+    {
+        imageUrl: inertia,
+        name: "inertia",
+        type: "Frontend",
+    },
+        {
+        imageUrl: nextjs,
+        name: "next.js",
         type: "Frontend",
     },
 ];
 
 export const experiences = [
+    {
+    title: "Software Engineer",
+    company_name: "Hipe Japan",
+    icon: Hipe,
+    iconBg: "#000000",
+    date: "July 2025 - Present",
+    points: [
+        "Developing and maintaining web applications using modern frameworks and technologies.",
+        "Collaborating with cross-functional teams to design, implement, and test new features.",
+        "Writing clean, efficient, and well-documented code.",
+        "Participating in code reviews and providing constructive feedback to peers."
+        ],
+    },
     {
         title: "Technical Support Specialist",
         company_name: "Amazon",
